@@ -8,7 +8,7 @@ run.py script expect to you to give a csv file which would two columns with the 
 
 The pipeline for your system is as follow:-
 
-a. Face Alignment
-b. Face extraction
-c. Feature extraction from the cropped face
-d. Using a learned model for final prediction
+a. Face Alignment  
+b. Face extraction  
+c. Feature extraction from the cropped face  
+d. Using a learned model for final prediction  
