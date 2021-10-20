@@ -1,0 +1,9 @@
+mtcnn
+keras-facenet
+opencv-python
+dlib
+PIL
+numpy
+pandas
+tqdm
+tensorflow
