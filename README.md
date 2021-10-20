@@ -12,3 +12,5 @@ a. Face Alignment
 b. Face extraction  
 c. Feature extraction from the cropped face  
 d. Using a learned model for final prediction  
+
+Documentation is given here:- https://docs.google.com/document/d/1VoxA6n_NLMcU7QV9ViH30SfcQu5JxUxdy-JJ5zOt0sU/edit?usp=sharing
