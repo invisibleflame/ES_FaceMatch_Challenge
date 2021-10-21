@@ -17,8 +17,8 @@ detector = dlib.get_frontal_face_detector()
 predictor = dlib.shape_predictor('dlib-models/shape_predictor_5_face_landmarks.dat')
 
 #xgboost
-file_name = "xgb_reg.pkl"
-xgb_model_loaded = pickle.load(open(file_name, "rb"))
+#file_name = "xgb_reg.pkl"
+#xgb_model_loaded = pickle.load(open(file_name, "rb"))
 
 #nn
 model = Sequential()
@@ -155,7 +155,7 @@ xtest= xtest.reshape([df.shape[0],1024])
 ypred = model.predict(xtest) >0.5
 
 #xgboost
-ypred = xgb_model_loaded.predict(xtest) >0.5
+#ypred = xgb_model_loaded.predict(xtest) >0.5
 
 df['label_pred'] = ypred
 df['label_pred'] = df['label_pred'].astype('int')
