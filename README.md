@@ -14,3 +14,7 @@ c. Feature extraction from the cropped face
 d. Using a learned model for final prediction  
 
 Documentation is given here:- https://docs.google.com/document/d/1VoxA6n_NLMcU7QV9ViH30SfcQu5JxUxdy-JJ5zOt0sU/edit?usp=sharing
+
+We have trained two model. One using the xgboost algorithm and another using Neural Networks. Final submission is made using Neural Network model and is present is submission.csv file
+
+:)
